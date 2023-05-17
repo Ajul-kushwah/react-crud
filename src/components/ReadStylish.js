@@ -111,7 +111,7 @@ function Read() {
                 <div class="row align-items-center justify-content-center mb-2 d-sm-none">
                     <div class="col-md-8">
                         <div className="input-group">
-                            <input type="text" name="q" onChange={()=>{}} className="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2" required/>
+                            <input type="text" name="q" onChange={inputHandler} className="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2" required/>
                             <div className="input-group-append">
                                 <button className="btn btn-secondary" type="submit">
                                     <i className="fas fa-search fa-sm"></i>
