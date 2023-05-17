@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+input[type=text],
+input[type=email],
+input[type=submit],
+input[type=password]
+{
+    padding: 9px;
+}
+::placeholder{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.form-control:focus {
+    border-color: #AF10BF;
+    /* border-color: #000000; */
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25); */
+}
+/* input[type=text]:focus{
+    border: 2px solid black;
+} */
+.forget-password{
+    color: #000; 
+    margin-left: 100px;
+}
+.chat-msg{
+    width:50%;
+}
+
+@media screen and (max-width: 360px) {
+    /* body {
+      background-color: blue;
+    } */
+    .chat-msg{
+        width:90%;
+    }
+    .forget-password{
+        color: #000; 
+        margin-left: 70px;
+    }
+  }
