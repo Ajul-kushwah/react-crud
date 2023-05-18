@@ -73,28 +73,8 @@ function Read() {
                             </Link>
                             
                             <ul className="navbar-nav ml-auto">
-                                {/* Nav Item - Search Dropdown (Visible Only XS) */}
-                                {/*<li className="nav-item dropdown no-arrow d-sm-none">
-                                    <a className="nav-link " href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i className="fas fa-search fa-fw"></i>
-                                    </a>
-                                    
-                                    <div className="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
-                                        <form action="" className="form-inline mr-auto w-100 navbar-search">
-                                        <div className="input-group">
-                                            <input type="text" name="q" onChange={()=>{}} className="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2" required/>
-                                            <div className="input-group-append">
-                                            <button className="btn btn-primary" type="submit">
-                                                <i className="fas fa-search fa-sm"></i>
-                                            </button>
-                                            </div>
-                                        </div>
-                                        </form>
-                                    </div>
-                                </li>*/}
-                                
                                 <div className="topbar-divider d-none d-sm-block"></div>
-                                
+                                                                
                                 {/* Nav Item - User Information */}
                                 <li className="nav-item dropdown no-arrow">
                                     <a className="nav-link" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -111,7 +91,7 @@ function Read() {
                 <div class="row align-items-center justify-content-center mb-2 d-sm-none">
                     <div class="col-md-8">
                         <div className="input-group">
-                            <input type="text" name="q" onChange={inputHandler} className="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2" required/>
+                            <input type="text" name="query" onChange={inputHandler} className="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2" required/>
                             <div className="input-group-append">
                                 <button className="btn btn-secondary" type="submit">
                                     <i className="fas fa-search fa-sm"></i>
